@@ -1,0 +1,69 @@
+@font-face {
+	font-family: 'honokamin';
+	src: url('../font/honokamin.ttf');
+}
+
+
+body{
+	width:100vw;
+}
+
+main{
+	margin-top: 20%;
+	margin-left:15%;
+	height: 284px;
+}
+
+li{
+	list-style: none;
+	float:left;
+}
+
+.title-box h1{
+	height:50px;
+	letter-spacing: 36px;
+	font-family: "futura";
+	font-style:italic;
+	font-size: 72px;
+	
+}
+.title-box h2{
+	letter-spacing: 32px;
+	font-size: 24px;
+	font-family: "Times New Roman";
+	font-weight:normal;
+	border-bottom: 1px solid black;
+
+}
+
+.title-txt p{
+	font-size: 14px;
+	font-family:"honokamin" ;
+	line-height: 2.0;
+}
+
+.title-txt{
+	margin-top:64px;
+}
+
+a{
+	letter-spacing: 12px;
+	font-family: "futura";
+	color:black;
+	padding-right: 72px;
+	text-decoration:none;
+}
+
+a:hover{
+	color:gray;
+}
+
+
+
+nav{
+	width:700px;
+	height:100px;
+	position: absolute;
+	bottom:0;
+	right: 120px;
+}

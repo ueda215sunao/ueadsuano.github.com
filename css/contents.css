@@ -1,0 +1,320 @@
+@font-face {
+	font-family: 'honokamin';
+	src: url('../font/honokamin.ttf');
+}
+
+ @keyframes fade-in {
+      0% {
+        display: none;
+        opacity: 0;
+      }
+
+      1% {
+        display: block;
+        opacity: 0;
+      }
+
+      100% {
+        display: block;
+        opacity: 1;
+      }
+    }
+@-moz-keyframes fade-in {
+      0% {
+        display: none;
+        opacity: 0;
+      }
+
+      1% {
+        display: block;
+        opacity: 0;
+      }
+
+      100% {
+        display: block;
+        opacity: 1;
+      }
+    }
+
+    @-webkit-keyframes fade-in {
+      0% {
+        display: none;
+        opacity: 0;
+      }
+
+      1% {
+        display: block;
+        opacity: 0;
+      }
+
+      100% {
+        display: block;
+        opacity: 1;
+      }
+    }
+
+ /*   @keyframes slider {
+  0% { transform: translateX(0); }
+  1% { transform: translateX()0; }
+  100% { transform: translateX(100%); }
+  
+}
+
+@-moz-keyframes slider {
+  0% { transform: translateX(0); }
+  1% { transform: translateX()0; }
+  100% { transform: translateX(100%); }
+  
+}
+
+@-webkit-keyframes slider {
+  0% { transform: translateX(0); }
+  50% { transform: translateX(50%); }
+  100% { transform: translateX(100%); }
+  
+}*/
+
+html,body{
+	height: auto !important;
+	overflow: auto !important;
+}
+
+.works a{
+	 text-decoration: none;
+	color:black;
+	font-size: 16px;
+	font-family: "honokamin";
+	display: inline-block;
+}
+
+.works a:hover{
+	color:gray;
+	/*border-bottom: 1px solid gray;*/
+
+}
+
+.works a::after {
+  background-color: gray;
+  bottom: 0;
+  content: '';
+  display: block;
+  height: 1.5px;
+  left: 0;
+  position: absolute;
+  transition: .5s all;
+  width: 0;
+}
+
+a:hover::after {
+  width: 100%;
+}
+
+body{
+	width:100vw;
+}
+
+main{
+	text-align: center;
+	/*animation-name: fade-in;
+	animation-duration: 2s;*/
+}
+
+header h1{
+	text-align: center;
+	letter-spacing: 36px;
+	font-size: 72px;
+	font-family: "futura";
+	font-style: italic;
+}
+
+p{
+	font-size: 16px;
+	font-family: "honokamin";
+	line-height: 2.0;
+}
+
+.profile-top h3{
+	font-size: 36px;
+	font-style: normal;
+	letter-spacing: 20px;
+	margin:0;
+	padding-left: 20px;
+	font-family:"honokamin";
+}
+
+.profile-top p{
+	font-size: 14px;
+	font-family: "Times New Roman";
+	letter-spacing: 20px;
+	margin: 3px;
+
+}
+
+.profile-txt p{
+	margin-top:50px; 
+}
+
+.title h2{
+	letter-spacing: 32px;
+	border-bottom: 1px solid black;
+	font-size: 24px;
+	font-family:"Times New Roman";
+	font-weight: normal;
+}
+
+/*.skill-graph p{
+	font-family: "futura";
+	font-size:21px;
+	letter-spacing: 9px;
+}
+*/
+.skill-graph{
+	margin:0 auto;
+	margin-bottom:150px;
+}
+
+.works-container{
+	width:100vw;
+	transition: opacity 8s;
+}
+
+.works-top{
+	text-align: center;
+	border-bottom: 1px solid black;
+	padding-bottom: 3px;
+	margin-bottom: 40px;
+}
+
+.works-content{
+	margin:0 auto;
+	width:1000px;
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+}
+
+.works{
+	margin-bottom:60px;
+	width:300px;
+	height: 320px;
+	text-align: left;
+	position: relative;
+	transition: opacity 1s;
+	-moz-transition: opacity 1s;
+  -webkit-transition: opacity 1s;
+  -o-transition: opacity 1s;
+
+}
+
+.works h3{
+	font-weight: normal;
+	letter-spacing: 8px;
+	display: inline-block;
+	padding: 6px;
+	background-color: black;
+	color:white;
+	font-family: "futura";
+}
+
+.works a{
+	position: absolute;
+	bottom:5px;
+	letter-spacing: 6px;
+	line-height: 1.5;
+}
+
+.works img{
+	display: block;
+	margin:auto;
+	transform: scale(0.8);
+	transition-duration: 0.5s;
+
+}
+
+.works img:hover{
+	transform: scale(1.1);	/*画像の拡大率*/
+	transition-duration: 0.5s;	/*変化に掛かる時間*/
+
+}
+
+ul{
+	padding:0px;
+}
+
+.slider-bar a{
+	text-align: center;
+	margin: 0px auto;
+	display: block;
+	color:white;
+	text-decoration: none;
+	font-size: 24px;
+	font-family: "futura";
+	letter-spacing: 10px;
+	transition-duration:1s;
+}
+
+.slider-bar a:hover{
+	background-color: white;
+	color:black;
+}
+
+
+li{
+	list-style: none;
+	margin-bottom: 30px;
+}
+
+
+
+.adress p{
+	font-size: 22px;
+	font-family: "futura";
+}
+
+.contact-top p{
+	border-bottom:1px solid black;
+	margin-top:250px; 
+}
+
+.contact-txt{
+	margin-top:100px;
+}
+
+ th{
+ 	font-weight: 150;
+ 	font-family: "futura";
+ 	font-size: 20px;
+ 	text-align: left;
+ 	letter-spacing: 12px;
+ 	padding:30px;
+ }
+
+ td{
+ 	width:600PX;
+ }
+
+ .bar{
+ 	/*transition: opacity 8s;*/
+ }
+
+ .bar svg{
+ 	height:16px;
+ }
+
+ .skill{
+ 	margin-top: 100px;
+ 	/*margin-bottom:150px;*/
+ }
+
+ /*.fadein {
+    opacity : 0;
+    transform : translate(0, 50px);
+    transition : all 300ms;
+}*/
+.works.scrollin {
+    opacity : 1;
+    transform : translate(0, 0);
+}
+
+

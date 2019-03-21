@@ -1,0 +1,268 @@
+@font-face {
+	font-family: 'honokamin';
+	src: url('../font/honokamin.ttf');
+}
+
+body p{
+	font-size: 16px;
+}
+
+
+main{
+	width: 1000px;
+	margin:0 auto;
+}
+
+header{
+	padding-bottom: 10px;
+	font-family: 'futura';
+	font-style: italic;
+	position: fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:50px;
+	background-color: white;
+}
+
+header a {
+	font-size: 40px;
+	letter-spacing: 6px;
+	text-decoration: none;
+	color: black;
+	position: fixed; 
+	top:0;
+	left:20px;
+	padding-top: 10px;
+
+
+}
+
+header a::after {
+  background-color: gray;
+  bottom: 0;
+  content: '';
+  display: block;
+  height: 1.5px;
+  left: 0;
+  position: absolute;
+  transition: .5s all;
+  width: 0;
+}
+
+header a:hover::after {
+  width: 100%;
+}
+
+.caption{
+	margin-top:140px; 
+	font-family: 'honokamin';
+}
+
+h3{
+	margin: 0;
+	font-weight: normal;
+	letter-spacing: 8px;
+	display: inline-block;
+	padding: 6px;
+	background-color: black;
+	color:white;
+	font-family: "futura";
+}
+
+.caption p{
+	font-size: 14px;
+	margin-top: 10px;
+	letter-spacing: 5px;
+}
+
+p{
+	margin: 0px
+}
+
+h2{
+	letter-spacing: 10px;
+	margin: 0px
+	font-size: 24px;
+}
+
+.date{
+	color: gray;
+}
+
+.main-img {
+	text-align: center;
+	margin-top:40px;
+}
+
+.slick img{
+	width:1000px;
+}
+
+.catchflese p{
+	text-align: center;
+	font-family: 'honokamin';
+	font-size:36px!important;
+	padding-bottom: 3px;
+	border-bottom: solid black 1px;
+	margin-top: 30px;
+}
+
+.title h1{
+	margin-bottom:30px;
+}
+
+
+.title{
+	letter-spacing: 8px;
+	margin-top: 70px;
+}
+
+.title p{
+	font-family: "游ゴシック";
+}
+
+h1{
+	font-family: 'futura';
+	font-size: 18px;
+	font-weight: normal;
+	color: gray;
+}
+
+#gif{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top:40px; 
+
+}
+
+#gif img{
+	width :300px;
+}
+
+/*#DESCRIPTION p{
+	width:600px;
+}
+*/
+#COMMENTARY img{
+	margin-top: 20px;
+}
+
+#COMMENTARY p{
+	margin-top: 20px;
+}
+
+#SOURCE{
+	margin-top: 120px;
+}
+
+.section{
+	margin-bottom:40px;
+}
+
+/*.left{
+	display: inline-block;
+}
+.right{
+	margin: 0;
+	padding:0;
+	width:570px;
+	display: inline-block;
+}*/
+
+
+.DESIGHNCONSEPT-content{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.desighnconsept-left{
+
+}
+
+.desighnconsept-right{
+
+}
+
+.slick-prev:before, .slick-next:before {
+	color: #000;
+}
+
+#COMMENTARY img{
+	width:1000px;
+}
+
+
+
+.right p{
+	margin-bottom: 30px;
+}
+
+.iphone{
+	margin: 40px auto 10px auto;
+	width:900px;
+	display: flex;
+	justify-content: space-between;
+	align-content: space-between;
+}
+
+.iphone p{
+	margin-top:20px;
+}
+
+.section{
+	display: flex;
+	/*justify-content: space-between;*/
+}
+
+.baby,.papamama,.garally{
+	margin-top:70px;
+}
+
+.baby-content p{
+	margin-bottom:16px; 
+}
+
+.baby-content .left{
+	padding-right: 30px;
+}
+
+
+.baby-content,.papamama-content,.garally-content{
+	display: flex;
+}
+
+.illast {
+
+	text-align: center;
+	margin:40px auto;
+}
+
+.illast p{
+	font-family: 'honokamin';
+	font-size:20px;
+	padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
