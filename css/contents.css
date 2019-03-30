@@ -373,6 +373,11 @@ li{
 	font-family: "futura";
 }
 
+.adress a{
+	text-decoration:none;
+	color: black;
+}
+
 .contact-top p{
 	border-bottom:1px solid black;
 	margin-top:250px; 
