@@ -3,9 +3,11 @@ $(function(){
 
 $('.slick').slick({
 	autoplay:true,
-    autoplaySpeed:2000,
+    autoplaySpeed:4000,
     dots:true,
 	accessibility:true
+
+
 });
 
 // $('.slick').slick({
