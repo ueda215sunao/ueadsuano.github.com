@@ -109,9 +109,27 @@ h2{
 	text-align: center;
 	font-family: 'honokamin';
 	font-size:36px!important;
-	padding-bottom: 3px;
-	border-bottom: solid black 1px;
-	margin-top: 30px;
+	/*padding-bottom: 3px;*/
+	/*border-bottom: solid black 1px;*/
+	
+}
+
+.catchflese {
+	margin-top: 40px;
+display: flex;
+align-items: center;
+}
+.catchflese:before,
+.catchflese:after {
+border-top: 1px solid;
+content: "";
+flex-grow: 1;
+}
+.catchflese:before {
+margin-right: 1rem;
+}
+.catchflese:after {
+margin-left: 1rem;
 }
 
 /*.block h1{
