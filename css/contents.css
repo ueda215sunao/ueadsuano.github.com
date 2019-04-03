@@ -261,7 +261,16 @@ ul{
 */
 #head{
 	padding: 20px;
+  background-color: white;
+  /*position: absolute;*/
+  position: fixed;
+  top:0;
+  left:0;
 }
+
+/*body{
+  position: relative;
+}*/
 
 #nav-drawer {
   position: relative;
