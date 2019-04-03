@@ -152,11 +152,11 @@ h2{
 	width:600px;
 }
 */
-#COMMENTARY img{
+#tlangform-commentary img{
 	margin-top: 20px;
 }
 
-#COMMENTARY p{
+#tlangform-commentary p{
 	margin-top: 20px;
 }
 
@@ -190,9 +190,13 @@ h2{
 	color: #000;
 }
 
-#taku-commentary img{
-	width:1000px;
+
+.usedimage{
+	text-align: center;
+	margin-top:60px; 
 }
+
+
 
 
 
