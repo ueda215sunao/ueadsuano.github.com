@@ -31,6 +31,7 @@ header a {
 	text-decoration: none;
 	color: black;
 	position: fixed; 
+	z-index: 2;
 	top:0;
 	left:20px;
 	padding-top: 10px;
