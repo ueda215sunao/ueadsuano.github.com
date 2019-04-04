@@ -139,11 +139,12 @@ margin-left: 1rem;
 
 .block{
 	/*letter-spacing: 8px;*/
-	margin-top: 68px;
+	margin-top: 48px;
 }
 
 .block p{
 	font-family: "游ゴシック";
+	letter-spacing: 2px;
 }
 
 .block h1{
@@ -231,6 +232,10 @@ margin-left: 1rem;
 	margin-bottom: 30px;
 }
 
+#matatabi-right,#matatabi-left{
+	padding-top: 40px;
+}
+
 .iphone{
 	margin: 40px auto 10px auto;
 	width:900px;
@@ -243,9 +248,17 @@ margin-left: 1rem;
 	margin-top:20px;
 }
 
-.section{
+.section-content{
 	display: flex;
 	/*justify-content: space-between;*/
+}
+
+.section h4{
+	font-size: 18px;
+	font-weight: bold;
+	padding: 3px 8px;
+	border-left: solid 12px black;
+	letter-spacing: 4px;
 }
 
 .baby,.papamama,.garally{
@@ -275,6 +288,11 @@ margin-left: 1rem;
 	font-family: 'honokamin';
 	font-size:20px;
 	padding: 20px;
+}
+
+#matatabi-serviceconsept p{
+	font-weight: bold;
+	font-size: 18px;
 }
 
 
