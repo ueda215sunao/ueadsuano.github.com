@@ -196,8 +196,8 @@ p{
 
 .works{
 	margin-bottom:60px;
-	width:300px;
-	height: 320px;
+	width:450px;
+	height: 360px;
 	text-align: left;
 	position: relative;
 	transition: opacity 1s;
@@ -209,28 +209,30 @@ p{
 
 .works h3{
 	font-weight: normal;
-	letter-spacing: 8px;
+	letter-spacing: 4px;
+  font-size: 11px;
 	display: inline-block;
-	padding: 6px;
+	padding: 4px;
 	background-color: black;
 	color:white;
 	font-family: "futura";
 }
 
 .works a{
+
 	position: absolute;
 	bottom:5px;
 	letter-spacing: 6px;
 	line-height: 1.5;
 }
 
-.works img{
+/*.works img{
 	display: block;
 	margin:auto;
 	transform: scale(0.8);
 	transition-duration: 0.5s;
 
-}
+}*/
 
 /*.works img:hover{
 	transform: scale(1.1);	
@@ -266,6 +268,7 @@ ul{
   position: fixed;
   top:0;
   left:0;
+  z-index: 2;
 }
 
 /*body{
