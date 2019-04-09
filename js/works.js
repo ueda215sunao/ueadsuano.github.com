@@ -81,6 +81,24 @@ $(function () {
   });
 });
 
+$(function () {
+  $('#openModal-namida').click(function(){
+      $('#modalArea-namida').fadeIn();
+  });
+  $('#closeModal , #modalBg').click(function(){
+    $('#modalArea-namida').fadeOut();
+  });
+});
+
+$(function () {
+  $('#openModal-coffee').click(function(){
+      $('#modalArea-coffee').fadeIn();
+  });
+  $('#closeModal , #modalBg').click(function(){
+    $('#modalArea-coffee').fadeOut();
+  });
+});
+
 
 
 
