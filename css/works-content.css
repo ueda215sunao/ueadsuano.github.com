@@ -3,6 +3,18 @@
 	src: url('../font/honokamin.ttf');
 }
 
+@keyframes fadein {
+from {
+    opacity: 0;
+    transform: translateY(20px);
+}
+to {
+    opacity: 1;
+    transform: translateY(0);
+}
+}
+
+
 body p{
 	font-size: 16px;
 }
@@ -11,6 +23,9 @@ body p{
 main{
 	width: 1000px;
 	margin:0 auto;
+	 animation-name: fadein;
+    animation-duration: 2s;
+    
 }
 
 header{

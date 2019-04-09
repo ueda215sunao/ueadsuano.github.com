@@ -3,6 +3,19 @@
 	src: url('../font/honokamin.ttf');
 }
 
+@keyframes fadein {
+from {
+    opacity: 0;
+    transform: translateY(20px);
+}
+to {
+    opacity: 1;
+    transform: translateY(0);
+}
+}
+
+
+
  @keyframes fade-in {
       0% {
         display: none;
@@ -118,11 +131,15 @@ body{
 	width:100vw;
 }
 
-main{
+main,header{
 	text-align: center;
+  animation-name: fadein;
+  animation-duration: 2s;
 	/*animation-name: fade-in;
 	animation-duration: 2s;*/
 }
+
+
 
 header h1{
 	text-align: center;
