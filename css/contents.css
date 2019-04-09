@@ -79,21 +79,26 @@ html,body{
 	overflow: auto !important;
 }
 
-.works a{
+.work-title{
 	 text-decoration: none;
 	color:black;
 	font-size: 16px;
 	font-family: "honokamin";
 	display: inline-block;
+  position: absolute;
+  bottom:5px;
+  letter-spacing: 6px;
+  line-height: 1.5;
+}
 }
 
-.works a:hover{
+.work-title a:hover{
 	color:gray;
 	/*border-bottom: 1px solid gray;*/
 
 }
 
-.works a::after {
+.work-title::after {
   background-color: gray;
   bottom: 0;
   content: '';
@@ -220,11 +225,17 @@ p{
 
 .works a{
 
-	position: absolute;
+	/*position: absolute;
 	bottom:5px;
 	letter-spacing: 6px;
-	line-height: 1.5;
+	line-height: 1.5;*/
 }
+
+
+
+
+
+
 
 /*.works img{
 	display: block;
@@ -232,9 +243,9 @@ p{
 	transform: scale(0.8);
 	transition-duration: 0.5s;
 
-}*/
+}
 
-/*.works img:hover{
+.works img:hover{
 	transform: scale(1.1);	
 	transition-duration: 0.5s;	
 

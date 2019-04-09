@@ -18,3 +18,73 @@ $(window).on('load',function(){
 
 });
 
+$(function () {
+  $('#openModal-yuri').click(function(){
+      $('#modalArea-yuri').fadeIn();
+  });
+  $('#closeModal , #modalBg').click(function(){
+    $('#modalArea-yuri').fadeOut();
+  });
+});
+
+
+$(function () {
+  $('#openModal-urei').click(function(){
+      $('#modalArea-urei').fadeIn();
+  });
+  $('#closeModal , #modalBg').click(function(){
+    $('#modalArea-urei').fadeOut();
+  });
+});
+
+$(function () {
+  $('#openModal-himitu').click(function(){
+      $('#modalArea-himitu').fadeIn();
+  });
+  $('#closeModal , #modalBg').click(function(){
+    $('#modalArea-himitu').fadeOut();
+  });
+});
+
+$(function () {
+  $('#openModal-jouhatu').click(function(){
+      $('#modalArea-jouhatu').fadeIn();
+  });
+  $('#closeModal , #modalBg').click(function(){
+    $('#modalArea-jouhatu').fadeOut();
+  });
+});
+$(function () {
+  $('#openModal-seibetu').click(function(){
+      $('#modalArea-seibetu').fadeIn();
+  });
+  $('#closeModal , #modalBg').click(function(){
+    $('#modalArea-seibetu').fadeOut();
+  });
+});
+
+$(function () {
+  $('#openModal-kohaku').click(function(){
+      $('#modalArea-kohaku').fadeIn();
+  });
+  $('#closeModal , #modalBg').click(function(){
+    $('#modalArea-kohaku').fadeOut();
+  });
+});
+
+$(function () {
+  $('#openModal-sousyoku').click(function(){
+      $('#modalArea-sousyoku').fadeIn();
+  });
+  $('#closeModal , #modalBg').click(function(){
+    $('#modalArea-sousyoku').fadeOut();
+  });
+});
+
+
+
+
+
+
+
+

@@ -3,6 +3,8 @@
 <head>
   <meta charset="utf-8">
   <link rel="stylesheet" type="text/css" href="./css/works-content.css">
+  <link href="js/slick-theme.css" rel="stylesheet" type="text/css">
+  <link href="js/slick.css" rel="stylesheet" type="text/css">
   <title>uedasunao</title>
   
 </head>
@@ -22,43 +24,126 @@
 	<div class="catchflese">
 		<p>ウエダスナオのえ</p>
 	</div>
-		<div class="illast">
-			<img src="img/suisai1.jpg">
-			<p>「百合」</p>
-		</div>
 
-		<div class="illast">
-			<img src="img/suisai2.jpg">
-			<p>「憂い」</p>
-		</div>
+		<div class="illast-thum">
+			<img class="item-illast" id ="openModal-yuri" src="img/suisai1.jpg">
+			<img class="item-illast" id ="openModal-urei" src="img/suisai2.jpg">
+			<img class="item-illast" id ="openModal-himitu" src="img/suisai3.jpg">
+			<img class="item-illast" id ="openModal-jouhatu" src="img/suisai4.jpg">
+			<img class="item-illast" id ="openModal-sousyoku" src="img/suisai5.jpg">
+			<img class="item-illast" id ="openModal-seibetu" src="img/suisai6.jpg">
+			<img class="item-illast" id ="openModal-kohaku" src="img/suisai9.jpg">
 
-		<div class="illast">
-			<img src="img/suisai3.jpg">
-			<p>「秘密」</p>
 		</div>
+			
+			<section id="modalArea-yuri" class="modalArea">
+			  <div id="modalBg" class="modalBg"></div>
+			  <div class="modalWrapper">
+			    <div class="modalContents">
+			      <img id ="openModal" src="img/suisai1.jpg">
 
-		<div class="illast">
-			<img src="img/suisai4.jpg">
-			<p>「蒸発」</p>
-		</div>
+			    </div>
+			    <div id="closeModal" class="closeModal">
+			      ×
+			    </div>
+			  </div>
+			</section>
+<!-- モーダルエリアここまで -->
+			<section id="modalArea-urei" class="modalArea">
+			  <div id="modalBg" class="modalBg"></div>
+			  <div class="modalWrapper">
+			    <div class="modalContents">
+			      <img id ="openModal" src="img/suisai2.jpg">
 
-		<div class="illast">
-			<img src="img/suisai5.jpg">
-			<p>「装飾」</p>
-		</div>
+			    </div>
+			    <div id="closeModal" class="closeModal">
+			      ×
+			    </div>
+			  </div>
+			</section>
 
-		<div class="illast">
-			<img src="img/suisai6.jpg">
-			<p>「性別」</p>
-		</div>
+			<section id="modalArea-himitu" class="modalArea">
+			  <div id="modalBg" class="modalBg"></div>
+			  <div class="modalWrapper">
+			    <div class="modalContents">
+			      <img id ="openModal" src="img/suisai3.jpg">
 
-		<div class="illast">
-			<img src="img/suisai9.jpg">
-			<p>「琥珀」</p>
-		</div>
+			    </div>
+			    <div id="closeModal" class="closeModal">
+			      ×
+			    </div>
+			  </div>
+			</section>
 
+			<section id="modalArea-jouhatu" class="modalArea">
+			  <div id="modalBg" class="modalBg"></div>
+			  <div class="modalWrapper">
+			    <div class="modalContents">
+			      <img id ="openModal" src="img/suisai4.jpg">
+
+			    </div>
+			    <div id="closeModal" class="closeModal">
+			      ×
+			    </div>
+			  </div>
+			</section>
+
+			<section id="modalArea-sousyoku" class="modalArea">
+			  <div id="modalBg" class="modalBg"></div>
+			  <div class="modalWrapper">
+			    <div class="modalContents">
+			      <img id ="openModal" src="img/suisai5.jpg">
+
+			    </div>
+			    <div id="closeModal" class="closeModal">
+			      ×
+			    </div>
+			  </div>
+			</section>
+
+			<section id="modalArea-seibetu" class="modalArea">
+			  <div id="modalBg" class="modalBg"></div>
+			  <div class="modalWrapper">
+			    <div class="modalContents">
+			      <img id ="openModal" src="img/suisai6.jpg">
+
+			    </div>
+			    <div id="closeModal" class="closeModal">
+			      ×
+			    </div>
+			  </div>
+			</section>
+
+			<section id="modalArea-kohaku" class="modalArea">
+			  <div id="modalBg" class="modalBg"></div>
+			  <div class="modalWrapper">
+			    <div class="modalContents">
+			      <img id ="openModal" src="img/suisai9.jpg">
+
+			    </div>
+			    <div id="closeModal" class="closeModal">
+			      ×
+			    </div>
+			  </div>
+			</section>
+
+		
 	</div>
+
+	
+
+	
+
+
+
+
+
 	</main>
 	
 </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/works.js"></script>
+</body>
+		<!-- <script type="text/javascript" src="js/slick.min.js"></script>
+		<script type="text/javascript" src="js/slick.js"></script> -->
 </html>
